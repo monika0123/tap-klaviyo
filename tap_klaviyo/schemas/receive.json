@@ -26,39 +26,31 @@
       "type": "object",
       "properties": {
         "Email Domain": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$event_id": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$_cohort$message_send_cohort": {
-          "type": "string"
+          "type": ["string", "null"]
         },
-        "$attribution": {
-          "type": "object",
-          "properties": {
-            "$message": {
-              "type": "string"
-            },
-            "$send_ts": {
-              "type": "string"
-            },
-            "$attributed_event_id": {
-              "type": "string"
-            }
-          }
+        "$_cohort$variation_send_cohort": {
+          "type": ["string", "null"]
         },
         "$message": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "Campaign Name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$flow": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "Subject": {
-          "type": "string"
+          "type": ["string", "null"]
+        },
+        "$variation": {
+          "type": ["string", "null"]
         }
       }
     },

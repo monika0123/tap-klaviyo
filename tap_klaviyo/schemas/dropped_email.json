@@ -34,20 +34,6 @@
         "$_cohort$message_send_cohort": {
           "type": "string"
         },
-        "$attribution": {
-          "type": "object",
-          "properties": {
-            "$message": {
-              "type": "string"
-            },
-            "$send_ts": {
-              "type": "string"
-            },
-            "$attributed_event_id": {
-              "type": "string"
-            }
-          }
-        },
         "$variation": {
           "type": "string"
         },

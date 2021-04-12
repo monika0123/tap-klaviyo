@@ -26,10 +26,10 @@
       "type": "object",
       "properties": {
         "List": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$event_id": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$attribution": {
           "type": "object",
@@ -38,10 +38,13 @@
               "type": "string"
             },
             "$send_ts": {
-              "type": "string"
+              "type": "number"
             },
             "$attributed_event_id": {
-              "type": "string"
+              "type": ["string", "null"]
+            },
+            "$flow": {
+              "type": ["string", "null"]
             }
           }
         }

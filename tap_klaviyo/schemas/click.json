@@ -37,19 +37,8 @@
         "$_cohort$message_send_cohort": {
           "type": ["string", "null"]
         },
-        "$attribution": {
-          "type": "object",
-          "properties": {
-            "$message": {
-              "type": ["string", "null"]
-            },
-            "$send_ts": {
-              "type": "number"
-            },
-            "$attributed_event_id": {
-              "type":["string", "null"]
-            }
-          }
+        "$_cohort$variation_send_cohort": {
+          "type": ["string", "null"]
         },
         "URL": {
           "type": ["string", "null"]
@@ -76,6 +65,9 @@
           "type": ["string", "null"]
         },
         "Subject": {
+          "type": ["string", "null"]
+        },
+        "$variation": {
           "type": ["string", "null"]
         }
       }
