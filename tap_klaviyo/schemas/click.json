@@ -34,7 +34,7 @@
         "$event_id": {
           "type": "string"
         },
-        "$cohort$message_send_cohort": {
+        "$_cohort$message_send_cohort": {
           "type": "string"
         },
         "$attribution": {
