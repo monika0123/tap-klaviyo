@@ -38,7 +38,18 @@
           "type": "string"
         },
         "$attribution": {
-          "type": "object"
+          "type": "object",
+          "properties": {
+            "$message": {
+              "type": "string"
+            },
+            "$send_ts": {
+              "type": "string"
+            },
+            "$attributed_event_id": {
+              "type": "string"
+            }
+          }
         },
         "URL": {
           "type": "string"
