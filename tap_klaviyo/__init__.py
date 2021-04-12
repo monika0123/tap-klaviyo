@@ -143,7 +143,7 @@ def discover(api_key):
 
 
 def do_discover(api_key):
-    print(json.dumps(discover(api_key), sys.stdout, indent=2))
+    return json.dump(discover(api_key), sys.stdout, indent=2)
 
 @singer.utils.handle_top_exception(LOGGER)
 def main():
