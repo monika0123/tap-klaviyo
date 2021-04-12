@@ -36,7 +36,8 @@
         },
         "$_cohort$message_send_cohort": {
           "type": "string"
-        },"$attribution": {
+        },
+        "$attribution": {
           "type": "object",
           "properties": {
             "$message": {
