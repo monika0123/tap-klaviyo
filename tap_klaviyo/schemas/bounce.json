@@ -34,6 +34,9 @@
         "$_cohort$message_send_cohort": {
           "type": ["string", "null"]
         },
+        "$cohort$variation_send_cohort": {
+          "type": ["string", "null"]
+        },
         "$attribution": {
           "type": "object",
           "properties": {
@@ -45,10 +48,16 @@
             },
             "$attributed_event_id": {
               "type": ["string", "null"]
+            },
+            "$flow": {
+              "type": ["string", "null"]
+            },
+            "$variation": {
+              "type": ["string", "null"]
             }
           }
         },
-        "$Bounce Type": {
+        "Bounce Type": {
           "type": ["string", "null"]
         },
         "$message": {
@@ -61,6 +70,9 @@
           "type": ["string", "null"]
         },
         "Subject": {
+          "type": ["string", "null"]
+        },
+        "$variation": {
           "type": ["string", "null"]
         }
       }
@@ -141,6 +153,18 @@
           "type": ["string", "null"]
         },
         "$city": {
+          "type": ["string", "null"]
+        },
+        "$consent_form_id": {
+          "type": ["string", "null"]
+        },
+        "$conset_form_version": {
+          "type": ["string", "number", "null"]
+        },
+        "$consent_method": {
+          "type": ["string", "null"]
+        },
+        "$consent_timestamp": {
           "type": ["string", "null"]
         }
       }

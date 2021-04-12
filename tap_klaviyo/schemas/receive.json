@@ -66,79 +66,91 @@
       "type": "object",
       "properties": {
         "email": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "updated": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "last_name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$longitude": {
           "type": ["string", "number"]
         },
         "$email": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "object": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$latitude": {
           "type": ["string", "number"]
         },
         "$address1": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$address2": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$title": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$timezone": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "id": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "ip_opt": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "first_name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$organization": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$region": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$id": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "created": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$last_name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$phone_number": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$country": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$source": {
           "type": ["string", "number"]
         },
         "$zip": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$first_name": {
-          "type": "string"
+          "type": ["string", "null"]
         },
         "$city": {
-          "type": "string"
+          "type": ["string", "null"]
+        },
+        "$consent_form_id": {
+          "type": ["string", "null"]
+        },
+        "$conset_form_version": {
+          "type": ["string", "number", "null"]
+        },
+        "$consent_method": {
+          "type": ["string", "null"]
+        },
+        "$consent_timestamp": {
+          "type": ["string", "null"]
         }
       }
     }

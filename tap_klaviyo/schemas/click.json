@@ -157,6 +157,18 @@
         },
         "$city": {
           "type": ["string", "null"]
+        },
+        "$consent_form_id": {
+          "type": ["string", "null"]
+        },
+        "$conset_form_version": {
+          "type": ["string", "number", "null"]
+        },
+        "$consent_method": {
+          "type": ["string", "null"]
+        },
+        "$consent_timestamp": {
+          "type": ["string", "null"]
         }
       }
     }
