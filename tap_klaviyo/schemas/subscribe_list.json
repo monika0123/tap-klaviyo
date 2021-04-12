@@ -60,7 +60,7 @@
           "type": "string"
         },
         "$longitude": {
-          "type": "number"
+          "type": ["string", "number"]
         },
         "$email": {
           "type": "string"
@@ -69,7 +69,7 @@
           "type": "string"
         },
         "$latitude": {
-          "type": "number"
+          "type": ["string", "number"]
         },
         "$address1": {
           "type": "string"
@@ -114,7 +114,7 @@
           "type": "string"
         },
         "$source": {
-          "type": "number"
+          "type": ["string", "number"]
         },
         "$zip": {
           "type": "string"
