@@ -24,12 +24,115 @@
     },
     "event_properties": {
       "type": "object",
-      "properties": {}
+      "properties": {
+        "Email Domain": {
+          "type": "string"
+        },
+        "$event_id": {
+          "type": "string"
+        },
+        "$_cohort$message_send_cohort": {
+          "type": "string"
+        },
+        "$attribution": {
+          "type": "object"
+        },
+        "$variation": {
+          "type": "string"
+        },
+        "$_cohort$variation_send_cohort": {
+          "type": "string"
+        },
+        "$message": {
+          "type": "string"
+        },
+        "Campaign Name": {
+          "type": "string"
+        },
+        "$flow": {
+          "type": "string"
+        },
+        "Subject": {
+          "type": "string"
+        }
+      }
     },
     "person": {
       "type": "object",
       "properties": {
         "email": {
+          "type": "string"
+        },
+        "updated": {
+          "type": "string"
+        },
+        "last_name": {
+          "type": "string"
+        },
+        "$longitude": {
+          "type": "string"
+        },
+        "$email": {
+          "type": "string"
+        },
+        "object": {
+          "type": "string"
+        },
+        "$latitude": {
+          "type": "string"
+        },
+        "$address1": {
+          "type": "string"
+        },
+        "$address2": {
+          "type": "string"
+        },
+        "$title": {
+          "type": "string"
+        },
+        "$timezone": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "ip_opt": {
+          "type": "string"
+        },
+        "first_name": {
+          "type": "string"
+        },
+        "$organization": {
+          "type": "string"
+        },
+        "$region": {
+          "type": "string"
+        },
+        "$id": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string"
+        },
+        "$last_name": {
+          "type": "string"
+        },
+        "$phone_number": {
+          "type": "string"
+        },
+        "$country": {
+          "type": "string"
+        },
+        "$source": {
+          "type": "string"
+        },
+        "$zip": {
+          "type": "string"
+        },
+        "$first_name": {
+          "type": "string"
+        },
+        "$city": {
           "type": "string"
         }
       }
