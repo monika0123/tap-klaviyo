@@ -180,7 +180,7 @@
           "type": ["string", "null"]
         },
         "recommended_product_ids_v1": {
-          "type": ["string", "null"]
+          "type": ["array", "null"]
         },
         "swell_points_expire_at": {
           "type": ["string", "null"]
