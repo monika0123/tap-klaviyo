@@ -38,7 +38,7 @@
           "type": ["string", "null"]
         },
         "$attribution": {
-          "type": ["string", "null"]
+          "type": ["object", "null"]
         },
         "Message Format": {
           "type": ["string", "null"]
