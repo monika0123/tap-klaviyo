@@ -38,7 +38,7 @@
           "type": ["string", "null"]
         },
         "$attribution": {
-          "type": ["object", "null"]
+          "type": ["string", "null"]
         },
         "Message Format": {
           "type": ["string", "null"]
@@ -129,7 +129,7 @@
           "type": ["string", "number", "null"]
         },
         "Shopify Tags": {
-          "type": ["object", "string", "null"]
+          "type": ["string", "null"]
         },
         "$id": {
           "type": ["string", "null"]
@@ -180,7 +180,7 @@
           "type": ["string", "null"]
         },
         "recommended_product_ids_v1": {
-          "type": ["object", "string", "null"]
+          "type": ["string", "null"]
         },
         "swell_points_expire_at": {
           "type": ["string", "null"]
@@ -240,7 +240,7 @@
           "type": ["string", "null"]
         },
         "$consent": {
-          "type": ["object", "string", "null"]
+          "type": ["string", "null"]
         },
         "swell_vip_tier_name": {
           "type": ["string", "null"]
