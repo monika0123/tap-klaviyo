@@ -246,7 +246,7 @@
           "type": ["string", "null"]
         },
         "$consent_form_version": {
-          "type": ["number", "null"]
+          "type": ["string","number", "null"]
         },
         "SearchSpring Segment": {
           "type": ["string", "null"]
