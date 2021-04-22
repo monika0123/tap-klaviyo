@@ -129,7 +129,7 @@
           "type": ["string", "number", "null"]
         },
         "Shopify Tags": {
-          "type": "object"
+          "type": ["array", "null"]
         },
         "$id": {
           "type": ["string", "null"]
