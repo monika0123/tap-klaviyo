@@ -1,0 +1,284 @@
+{
+  "type": "object",
+  "properties": {
+    "uuid": {
+      "type": "string"
+    },
+    "event_name": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "integer"
+    },
+    "object": {
+      "type": "string"
+    },
+    "datetime": {
+      "type": "string"
+    },
+    "statistic_id": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "event_properties": {
+      "type": "object",
+      "properties": {
+        "From Number": {
+          "type": ["string", "null"]
+        },
+        "$event_id": {
+          "type": ["string", "null"]
+        },
+        "$attribution": {
+          "type": ["object", "null"]
+        },
+        "$extra": {
+          "type": "object",
+          "properties": {
+            "Message ID": {
+              "type": ["string", "null"]
+            },
+            "From City": {
+              "type": ["string", "null"]
+            },
+            "From State": {
+              "type": ["string", "null"]
+            },
+            "From Country": {
+              "type": ["string", "null"]
+            }
+          }
+        },
+        "Message Body": {
+          "type": ["string", "null"]
+        },
+        "To Number": {
+          "type": ["string", "null"]
+        },
+        "From Phone Region": {
+          "type": ["string", "null"]
+        },
+        "Method": {
+          "type": ["string", "null"]
+        },
+        "To Phone Region": {
+          "type": ["string", "null"]
+        }
+      }
+    },
+    "person": {
+      "type": "object",
+      "properties": {
+        "last_name": {
+          "type": ["string", "null"]
+        },
+        "consent_text": {
+          "type": ["string", "null"]
+        },
+        "$longitude": {
+          "type": ["string", "number"]
+        },
+        "page_count": {
+          "type": ["number", "string", "null"]
+        },
+        "$latitude": {
+          "type": ["string", "number"]
+        },
+        "$city": {
+          "type": ["string", "null"]
+        },
+        "$consent_form_id": {
+          "type": ["string", "number", "null"]
+        },
+        "swell_credit_balance": {
+          "type": ["string", "null"]
+        },
+        "Klaviyo ID": {
+          "type": ["string", "null"]
+        },
+        "$timezone": {
+          "type": ["string", "null"]
+        },
+        "id": {
+          "type": ["string", "null"]
+        },
+        "loyalty_opt_in_date": {
+          "type": ["string", "null"]
+        },
+        "$sms_consent_method": {
+          "type": ["string", "number", "null"]
+        },
+        "$consent_method": {
+          "type": ["string", "null"]
+        },
+        "first_name": {
+          "type": ["string", "null"]
+        },
+        "swell_points_earned": {
+          "type": ["string", "number", "null"]
+        },
+        "Shopify Tags": {
+          "type": ["array", "null"]
+        },
+        "$id": {
+          "type": ["string", "null"]
+        },
+        "Post Purchase Nurture": {
+          "type": ["string", "null"]
+        },
+        "swell_vip_tier_ends_at": {
+          "type": ["string", "null"]
+        },
+        "Cadence Grouping": {
+          "type": ["string", "null"]
+        },
+        "Fourth Purchase Date": {
+          "type": ["string", "null"]
+        },
+        "$phone_number_region": {
+          "type": ["string", "null"]
+        },
+        "Week 1 Segment": {
+          "type": ["array", "null"]
+        },
+        "created": {
+          "type": ["string", "null"]
+        },
+        "$zip": {
+          "type": ["string", "null"]
+        },
+        "$source": {
+          "type": ["string", "number","null"]
+        },
+        "User Segment": {
+          "type": ["string", "null"]
+        },
+        "swell_has_account": {
+          "type": ["boolean", "string", "null"]
+        },
+        "email": {
+          "type": ["string", "null"]
+        },
+        "in-postpurchase": {
+          "type": ["boolean", "string", "null"]
+        },
+        "First Purchase Date": {
+          "type": ["string", "null"]
+        },
+        "updated": {
+          "type": ["string", "null"]
+        },
+        "swell_referral_link": {
+          "type": ["string", "null"]
+        },
+        "recommended_product_ids_v1": {
+          "type": ["array", "null"]
+        },
+        "swell_points_expire_at": {
+          "type": ["string", "null"]
+        },
+        "$email": {
+          "type": ["string", "null"]
+        },
+        "object": {
+          "type": ["string", "null"]
+        },
+        "Most Recent Purchase Date": {
+          "type": ["string", "null"]
+        },
+        "loyalty_credit_balance_in_customer_currency": {
+          "type": ["string", "null"]
+        },
+        "Accepts Marketing": {
+          "type": ["boolean", "string", "null"]
+        },
+        "$address1": {
+          "type": ["string", "null"]
+        },
+        "$address2": {
+          "type": ["string", "null"]
+        },
+        "$title": {
+          "type": ["string", "null"]
+        },
+        "swell_points_balance": {
+          "type": ["string", "number", "null"]
+        },
+        "SMS Double Opt-In": {
+          "type": ["boolean", "string", "null"]
+        },
+        "swell_is_affiliate": {
+          "type": ["boolean", "string", "null"]
+        },
+        "$phone_number": {
+          "type": ["string", "null"]
+        },
+        "$consent_timestamp": {
+          "type": ["string", "null"]
+        },
+        "Third Purchase Date": {
+          "type": ["string", "null"]
+        },
+        "$organization": {
+          "type": ["string", "null"]
+        },
+        "$region": {
+          "type": ["string", "null"]
+        },
+        "swell_referral_discount_code": {
+          "type": ["string", "null"]
+        },
+        "$last_name": {
+          "type": ["string", "null"]
+        },
+        "$consent": {
+          "type": ["array", "null"]
+        },
+        "swell_vip_tier_name": {
+          "type": ["string", "null"]
+        },
+        "$consent_form_version": {
+          "type": ["string","number", "null"]
+        },
+        "SearchSpring Segment": {
+          "type": ["string", "null"]
+        },
+        "$country": {
+          "type": ["string", "null"]
+        },
+        "loyalty_opt_in": {
+          "type": ["boolean", "string", "null"]
+        },
+        "Expected Date Of Next Order": {
+          "type": ["string", "null"]
+        },
+        "$first_name": {
+          "type": ["string", "null"]
+        },
+        "Second Purchase Date": {
+          "type": ["string", "null"]
+        },
+        "SMS Msg Second": {
+          "type": ["string", "null"]
+        },
+        "SMS Msg Confirmation": {
+          "type": ["string", "null"]
+        },
+        "SMS Msg First": {
+          "type": ["string", "null"]
+        },
+        "Voyage Sign Up Date": {
+          "type": ["string", "null"]
+        },
+        "Last Update by Voyage": {
+          "type": ["string", "null"]
+        },
+        "Subscriber State Defined": {
+          "type": ["string", "null"]
+        }
+      }
+    }
+  }
+}
