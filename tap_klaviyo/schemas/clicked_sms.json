@@ -240,7 +240,7 @@
           "type": ["string", "null"]
         },
         "$consent": {
-          "type": ["string", "null"]
+          "type": ["array", "null"]
         },
         "swell_vip_tier_name": {
           "type": ["string", "null"]
