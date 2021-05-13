@@ -12,6 +12,8 @@ This tap:
 
 Singer taps function in two modes: [discovery mode](https://github.com/singer-io/getting-started/blob/master/docs/DISCOVERY_MODE.md) and [sync mode](https://github.com/singer-io/getting-started/blob/master/docs/SYNC_MODE.md). Before running the tap in sync mode, you should run the tap in discovery mode and direct the output to a file called catalog.json, which can be used as an input to run the tap in sync mode and to specify which streams should be synced (see Step 4).
 
+# REWRITE FOR NEW PACKAGE AND UPDATES
+
 ## Quick start
 
 1. Install
