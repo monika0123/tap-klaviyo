@@ -54,9 +54,6 @@
             }
           }
         },
-        "Message Body": {
-          "type": ["string", "null"]
-        },
         "To Number": {
           "type": ["string", "null"]
         },
